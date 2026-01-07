@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://dcqee0qnswq32"]
+
+[ext_resource type="ArrayMesh" uid="uid://b0b2v5rbx2i77" path="res://plane.obj" id="1_sat1r"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Plane" type="MeshInstance3D" parent="."]
+transform = Transform3D(25, 0, 0, 0, 1, 0, 0, 0, 25, 0, 0, 0)
+mesh = ExtResource("1_sat1r")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.9659259, 0.25881904, 0, -0.25881904, 0.9659259, 0, 3, 0)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.95371693, 0.3007058, 0, -0.3007058, 0.95371693, 0, 2.765, 0)

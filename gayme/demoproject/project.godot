@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="Gayme"
-run/main_scene="uid://bbnnqpqepsmhn"
+config/name="WorkWork"
+run/main_scene="res://DemoScene.tscn"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
